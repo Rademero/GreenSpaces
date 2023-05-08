@@ -1,0 +1,49 @@
+/*Default root values*/
+:root {
+    --contentFontSize: 105%;
+    --headerMargin: 8px;
+    --contentMargin: 35px;
+}
+
+/* Change nav bar background color */
+.navbar {
+    background-color: darkgreen;
+    position: fixed;
+    width: 100%;
+}
+
+.head10{
+    text-align: center;
+    margin-left: var(--headerMargin);
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 125%;
+    font-family: Verdana;
+    text-decoration: underline;
+}
+
+.maincontent10{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 25px;
+    justify-items: left;
+    font-family: "Palatino Linotype";
+    letter-spacing: 1.2px;
+    font-size: 125%;
+    line-height: 2;
+    padding-bottom: 15px;
+}
+
+#pageTitle{
+    font-size: 300%;
+    font-weight: bold;
+    font-family: Impact;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    left: auto;
+    border-bottom: #0f6674;
+    letter-spacing: 1.2px;
+    word-spacing: 5px;
+}

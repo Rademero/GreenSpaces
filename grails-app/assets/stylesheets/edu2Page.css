@@ -1,0 +1,333 @@
+/*Default root values*/
+:root {
+    --contentFontSize: 105%;
+    --headerMargin: 8px;
+    --contentMargin: 35px;
+}
+
+/* Change nav bar background color */
+.navbar {
+    background-color: darkgreen;
+    position: fixed;
+    width: 100%;
+}
+/*Headers for 'negative imact of stormwater runoff, Groundwater infiltration, Types of gray/green infra*/
+.head1{
+    text-align: center;
+    margin-left: var(--headerMargin);
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 125%;
+    font-family: Verdana;
+    text-decoration: underline;
+}
+
+/*diagram container*/
+.container1{
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 260px;
+    background-color: lightgreen;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom, darkgreen, greenyellow) 1;
+
+}
+/*Inner box that holds the lists*/
+.box1{
+    border: 1px solid black;
+    padding: 10px;
+    width: 240px;
+    height: 240px;
+    display: inline-block;
+    vertical-align: top;
+}
+/*diagram container*/
+.container2{
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 260px;
+    background-color: lightgreen;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom, darkgreen, greenyellow) 1;
+
+}
+/* Style quiz */
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+.quiz-item, .question-item {
+    margin:10px;
+}
+.question {
+    margin-top: 20px;
+    list-style-type: none;
+}
+.choices {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.submit {
+    margin-left: 20px;
+}
+
+.correct{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+/* Style images */
+#closedStreetFlooding{
+    max-height: 300px;
+}
+#flooded_street1{
+    max-height: 30rem;
+}
+#water_pollution1{
+    max-height: 30rem;
+}
+#flooding_damage1{
+    max-height: 30rem;
+}
+#algal_growth1{
+    max-height: 300px;
+}
+#algal_growth2{
+    max-height: 300px;
+}
+#groundwater_cycle{
+    max-height: 300px;
+}
+#erosion{
+    max-height: 300px;
+}
+#ring_infiltronometer{
+    max-height: 300px;
+}
+#irrigation{
+    max-height: 300px;
+}
+#storm_drain1{
+    max-height: 300px;
+}
+#storm_pipe{
+    max-height: 300px;
+}
+#culvert1{
+    max-height: 300px;
+}
+#rain_Garden_Ditch{
+    max-height: 300px;
+}
+#neighborhood_rain_garden{
+    max-height: 300px;
+}
+#Intersection_bio_garden{
+    max-height: 300px;
+    margin-top: 20px;
+}
+#green_roof_house{
+    max-height: 300px;
+    margin-top: 20px;
+}
+#Green_roof_warehouse{
+    max-height: 300px;
+    margin-top: 20px;
+}
+#Permeable_pavement_diagram{
+    max-height: 300px;
+    margin-top: 20px;
+
+}
+#grass_growing_permeable_pavers{
+    max-height: 300px;
+}
+#rain_barrel1 {
+    max-height: 300px;
+}
+#Rain_barrel2{
+    max-height: 300px;
+}
+#rain_barrel_3 {
+    max-height: 300px;
+}
+
+/* Styling for triple list diagram*/
+#triplelist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    float: left;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 900px;
+    background-color: lightgreen;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom, darkgreen, greenyellow) 1;
+}
+/*Inner box that holds the lists*/
+#box2{
+    border: 1px solid black;
+    padding: 10px;
+    width: 240px;
+    height: 240px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/*Body styling*/
+body{
+    background-color: lightgreen;
+}
+/*Top content div*/
+#topContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Negative impacts div*/
+#negativeImpacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+#waterpollutionpics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+#groundwaterpics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+#graypics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+#greeninfpics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#greensinglepic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/*Title at top of page*/
+#title{
+    font-size: 300%;
+    font-weight: bold;
+    font-family: Impact;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    left: auto;
+    border-bottom: #0f6674;
+    letter-spacing: 1.2px;
+    word-spacing: 5px;
+}
+
+/*caption for image at top of page*/
+#caption1{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+}
+
+#caption3{
+    margin-bottom: 25px;
+}
+
+
+/*Main paragraph body of the content*/
+.maincontent1{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 25px;
+    justify-items: left;
+    font-family: "Palatino Linotype";
+    letter-spacing: 1.2px;
+    font-size: 125%;
+    line-height: 2;
+    padding-bottom: 15px;
+}
+/*Header for jobs that use infiltration*/
+#jobHeaders{
+    text-decoration: underline;
+    font-size: 125%;
+}
+/*list for jobs that use infiltration*/
+#jobList{
+    list-style-type: none;
+    font-size: 110%;
+}
+/*bullet point lists formatting*/
+#bulletList1{
+    list-style: none;
+    font-size: 110%;
+
+}
+li{
+    margin-bottom: 5px;
+}
+/*bullet point lists formatting*/
+#bulletList{
+    list-style: none;
+    font-size: 110%;
+}
+/*second bullet list formatting (used for types of green infrastructure)*/
+#bulletList2{
+    list-style-type: square;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 50px;
+    font-size: 130%;
+    line-height: 2;
+    padding-bottom: 50px;
+    font-family: "Palatino Linotype";
+}
+
+#blltList2Subtext {
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+img{
+    border-radius: 10px; /*round the corners of every image*/
+}
